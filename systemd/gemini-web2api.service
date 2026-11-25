@@ -1,0 +1,15 @@
+[Unit]
+Description=Gemini Web2API Proxy Gateway (Gemini 4 Neon, Carbon, Hydrogen)
+Documentation=https://github.com/imxitiz/Gemini-on-Antigravity
+After=network-online.target default.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=%h/GitHub/Gemini-on-Antigravity/go-gemini-web2api/go-gemini-web2api -cookie-file %h/.config/gemini-web2api/cookie.txt -listen 127.0.0.1:28492
+Restart=always
+RestartSec=5
+WorkingDirectory=%h/GitHub/Gemini-on-Antigravity/go-gemini-web2api
+
+[Install]
+WantedBy=default.target

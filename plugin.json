@@ -1,0 +1,17 @@
+{
+  "name": "gemini-4",
+  "displayName": "Google Gemini 4 Frontier Gateway",
+  "description": "Bridges Google AI Pro web models (Gemini 4 Neon, Carbon, Hydrogen) with controllable reasoning effort (xhigh/high/medium/low) into Google Antigravity.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Kshitiz Sharma (imxitiz)",
+    "url": "https://github.com/imxitiz"
+  },
+  "homepage": "https://github.com/imxitiz/Gemini-on-Antigravity",
+  "repository": "https://github.com/imxitiz/Gemini-on-Antigravity.git",
+  "suggestedPrompts": [
+    "Consult Gemini 4 Neon to architect the refactoring plan for this repository",
+    "Use Gemini 4 Carbon to optimize and debug complex algorithms",
+    "Run deep reasoning with Gemini 4 Neon on maximum effort (xhigh)"
+  ]
+}
