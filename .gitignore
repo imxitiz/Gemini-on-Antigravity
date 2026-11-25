@@ -1,0 +1,29 @@
+# Secrets & Credentials
+cookie.txt
+*.cookie
+*.env
+*.key
+*.token
+
+# Reference Repositories
+9router-go/
+gemini-proxy/
+
+# Gateway Binary & Upstream Clones
+go-gemini-web2api/
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS / Editor Artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
